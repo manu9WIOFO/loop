@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>¿Qué pienso?</title>
+  <link rel="stylesheet" href="estilo1.css">
+</head>
+<style>
+  body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f3f3;
+  margin: 0;
+  padding: 0;
+}
+
+/* Contenedor principal */
+#contenedor {
+  width: 90%;
+  margin: auto;
+  background-color: rgb(158, 157, 157);
+  border: 1px solid #aaa9a9;
+}
+
+/* Encabezado */
+#encabezado {
+  background-color: yellow;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Menú superior */
+#menu1 {
+  background-color: #333;
+  text-align: center;
+  padding: 10px;
+}
+#menu1 a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+#menu1 a:hover {
+  text-decoration: underline;
+}
+
+/* Sección principal (derecha) */
+#derecha {
+  float: right;
+  width: 70%;
+  padding: 20px;
+}
+#derecha img {
+  display: block;
+  margin: 15px auto;
+  max-width: 80%;
+}
+
+/* Aside (izquierda) */
+#izquierda {
+  float: left;
+  width: 25%;
+  background-color: #696363;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+  box-sizing: border-box;
+  min-height: 400px; /* Ajusta según el contenido */
+}
+#izquierda a {
+  text-decoration: none;
+  color: #333;
+}
+#izquierda a:hover {
+  color: #007bff;
+}
+
+/* Pie de página */
+#piepagina {
+  clear: both;
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
+
+</style>
+<body>
+  <div id="contenedor">
+    
+    <header id="encabezado">
+      <h1>¿Qué pienso?</h1>
+    </header>
+
+    <nav id="menu1">
+      <h5>
+        <a href="index.html">Adaptándonos</a>
+        <a href="coronavirus.html">Pandemia en México</a>
+        <a href="curiosos.html">Datos curiosos</a>
+      </h5>
+    </nav>
+
+    <section id="derecha">
+      <p>
+        Pienso que la cuarentena fue una etapa difícil, pero también nos enseñó a valorar 
+        la salud, la familia y la importancia de la educación. Fue un reto que dejó 
+        aprendizajes importantes para el futuro.
+      </p>
+      <img src="como pienso.jpg" alt="Reflexión personal">
+      <p>
+        Durante la cuarentena, he reflexionado sobre mi vida y mis metas. He aprendido a valorar más el tiempo con mi familia y a cuidar de mi salud mental.
+      </p>
+    </section>
+
+    <aside id="izquierda">
+    <h5><a href="actividades.html">Actividades en casa</a></h5>
+    <h5><a href="aportacion.html">Mi aportación familiar</a></h5>
+    <h5><a href="pienso.html">¿Qué pienso?</a></h5>
+  </aside>
+
+  <section id="derecha">
+    <!-- ...contenido principal... -->
+  </section>
+
+    <footer id="piepagina">
+      <h6><em>Manuel Corona - Carrasco 501 PROGRAMACION Tehuantepec, OAXACA</em></h6>
+    </footer>
+
+  </div>
+</body>
+</html>
